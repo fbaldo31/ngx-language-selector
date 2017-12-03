@@ -7,9 +7,9 @@ An Angular 4.x+ component integrating ngx-translate. First the browser language 
 `npm i ngx-language-selector --save`
 
 app.module :
-`import { NgxLanguageSelectorModule }     from './c/ngx-language-selector.module';`
 
 ``` js
+    import { NgxLanguageSelectorModule }     from 'ngx-language-selector.module';
     imports: [
         BrowserModule,
         ...
