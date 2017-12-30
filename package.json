@@ -1,6 +1,6 @@
 {
   "name": "ngx-language-selector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An Angular 4.x+ component integrating ngx-translate",
   "main": "dist/index.js",
   "scripts": {
@@ -11,8 +11,15 @@
     "ngx-translate",
     "translation"
   ],
-  "author": "Frederick Baldo",
+  "author": {
+    "name": "Frederick Baldo",
+    "email": "f.baldo31@gmail.com"
+  },
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:fbaldo31/ngx-language-selector.git"
+  },
   "dependencies": {
     "@ngx-translate/core": "^8.0.0",
     "@ngx-translate/http-loader": "^2.0.0"

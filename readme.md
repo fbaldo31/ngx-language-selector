@@ -1,15 +1,15 @@
 # ngx-language-selector
 
-An Angular 4.x+ component integrating ngx-translate. First the browser language is detected and applied.
+An Angular 4+ component integrating ngx-translate. First the browser language is detected and applied.
 
 ## Installation
 
 `npm i ngx-language-selector --save`
 
 app.module :
+`import { NgxLanguageSelectorModule }     from 'ngx-language-selector.module';`
 
 ``` js
-    import { NgxLanguageSelectorModule }     from 'ngx-language-selector.module';
     imports: [
         BrowserModule,
         ...
