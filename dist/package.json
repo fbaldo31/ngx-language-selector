@@ -1,6 +1,6 @@
 {
   "name": "ngx-language-selector",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "An Angular 4.x+ component integrating ngx-translate",
   "main": "bundles/ngx-language-selector.umd.js",
   "keywords": [
@@ -18,7 +18,7 @@
     "url": "https://github.com/fbaldo31/ngx-language-selector"
   },
   "peerDependencies": {
-    "@ngx-translate/core": "^8.0.0",
+    "@ngx-translate/core": "^8.0.0 | ^9.1.1",
     "@ngx-translate/http-loader": "^2.0.0"
   },
   "devDependencies": {
