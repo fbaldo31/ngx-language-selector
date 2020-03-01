@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { NgxLanguageSelectorModule } from '../../projects/ngx-language-selector/src/public-api';
+
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -8,7 +10,7 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule, NgxLanguageSelectorModule
   ],
   providers: [],
   bootstrap: [AppComponent]

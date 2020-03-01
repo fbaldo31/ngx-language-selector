@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{amrp:function(o){o.exports={hello:"Hello",world:"world !"}}}]);

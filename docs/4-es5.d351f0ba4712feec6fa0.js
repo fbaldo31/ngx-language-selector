@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{b3ex:function(o){o.exports={hello:"Bonjour",world:"le monde !"}}}]);
