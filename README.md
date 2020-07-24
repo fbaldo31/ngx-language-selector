@@ -1,6 +1,6 @@
 # ngx-language-selector
 
-An Angular 4+ component integrating ngx-translate.
+An Angular 4 to 8 component integrating ngx-translate.
 First the browser language is detected and applied if the traduction file exists in `/src/assets/i18n/{lang}.json` otherwise english is set as default.
 
 [![Codefresh build status]( https://g.codefresh.io/api/badges/pipeline/fbaldo31/ngx-language-selector%2Fngx-language-selector?key=eyJhbGciOiJIUzI1NiJ9.NWM2MTFjNmMxMmE5NTYyZTZhYWQ3YTRl.S6H0kL3RuTkulI3shIONacgTBojrmumEo9peBrC4buw&type=cf-1)]( https%3A%2F%2Fg.codefresh.io%2Fpipelines%2Fngx-language-selector%2Fbuilds%3Ffilter%3Dtrigger%3Abuild~Build%3Bpipeline%3A5e5430b1a284e042ae2eaabf~ngx-language-selector)  ![David](https://img.shields.io/david/fbaldo31/ngx-language-selector.svg)
@@ -89,11 +89,11 @@ template|string|bootstrap|The default value for retrocompatibility|
 ulClass|string| - |Not used in Bootstrap template|
 liClass|string| - |Not used in Bootstrap template|
 
+----------------------------------------
+
 ## Todo
 
-- Manage pluralization
-
-----------------------------------------
+- Support for Angular 9
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.3.
 

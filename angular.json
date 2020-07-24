@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ngx-language-selector-V2": {
+    "ngx-language-selector-demo": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {

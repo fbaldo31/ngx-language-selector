@@ -8,7 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "docs": "ng build --prod --base-href https://fbaldo31.github.io/ngx-language-selector/"
+    "docs": "ng build --prod --base-href https://fbaldo31.github.io/ngx-language-selector/",
+    "build:lib": "ng build --prod ngx-language-selector"
   },
   "private": true,
   "dependencies": {
