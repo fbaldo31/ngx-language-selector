@@ -5,9 +5,11 @@ First the browser language is detected and applied if the traduction file exists
 
 [![Codefresh build status]( https://g.codefresh.io/api/badges/pipeline/fbaldo31/ngx-language-selector%2Fngx-language-selector?key=eyJhbGciOiJIUzI1NiJ9.NWM2MTFjNmMxMmE5NTYyZTZhYWQ3YTRl.S6H0kL3RuTkulI3shIONacgTBojrmumEo9peBrC4buw&type=cf-1)]( https%3A%2F%2Fg.codefresh.io%2Fpipelines%2Fngx-language-selector%2Fbuilds%3Ffilter%3Dtrigger%3Abuild~Build%3Bpipeline%3A5e5430b1a284e042ae2eaabf~ngx-language-selector)  ![David](https://img.shields.io/david/fbaldo31/ngx-language-selector.svg)
 
+[Demo](https://fbaldo31.github.io/ngx-language-selector/)
+
 ## Install
 
-`yarn add ngx-language-selector`
+`yarn add ngx-language-selector @ngx-translate/core @ngx-translate/http-loader`
 
 ## Setup
 
