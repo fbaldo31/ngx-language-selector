@@ -17,6 +17,11 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-language-selector/*": [
+        "./node_modules/ngx-language-selector/*"
+      ]
+    }
   }
 }

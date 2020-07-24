@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { NgxLanguageSelectorModule } from '../../projects/ngx-language-selector/src/public-api';
+import { NgxLanguageSelectorModule } from 'ngx-language-selector';
 
 import { AppComponent } from './app.component';
 
