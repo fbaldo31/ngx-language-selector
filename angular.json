@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ngx-language-selector-demo": {
+    "demo": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -63,11 +63,11 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ngx-language-selector-V2:build"
+            "browserTarget": "ngx-language-selector-demo:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "ngx-language-selector-V2:build:production"
+              "browserTarget": "ngx-language-selector-demo:build:production"
             }
           }
         },
@@ -161,5 +161,5 @@
         }
       }
     }},
-  "defaultProject": "ngx-language-selector-V2"
+  "defaultProject": "demo"
 }

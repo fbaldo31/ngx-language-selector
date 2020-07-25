@@ -5260,10 +5260,10 @@ ng-packagr@^10.0.3:
     terser "^4.3.8"
     update-notifier "^4.0.0"
 
-ngx-language-selector@^3.0.6:
-  version "3.0.6"
-  resolved "https://pkgs.dev.azure.com/kpi-intelligence/_packaging/kpi-packages/npm/registry/ngx-language-selector/-/ngx-language-selector-3.0.6.tgz#99813a31cf769ebff91ebdab198ca07e5a413139"
-  integrity sha1-mYE6Mc92nr/5Hr2rGYygflpBMTk=
+ngx-language-selector@^3.1.1:
+  version "3.1.1"
+  resolved "https://pkgs.dev.azure.com/kpi-intelligence/_packaging/kpi-packages/npm/registry/ngx-language-selector/-/ngx-language-selector-3.1.1.tgz#6adad5f58a6d07ab7e8687a58310cbdc9dd54901"
+  integrity sha1-atrV9YptB6t+hoelgxDL3J3VSQE=
   dependencies:
     tslib "^1.9.0"
 
