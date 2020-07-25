@@ -52,6 +52,14 @@ If you are looking for a zero dependencies solution and want more control you ca
 
 You will get an `<ul></ul>` element with nested `<li></li>` elements which will have a `lang-{{lang}}` class + any class provided as input.
 
+## Custom Implementation
+
+If you want to build your own component (i.e. using an extrnal library) you can just use the regular `TranslateService` `getLangs()` method to change the selected language yourself after registering the module.
+
+In this case you should call the component with `disabled` input set to true:
+
+`<ngx-lang translations="en,fr" [disabled]="true"></ngx-lang>`
+
 ## Example
 
 app.module
@@ -88,10 +96,7 @@ translations|string|en|Coma separated string to list available translation files
 template|string|bootstrap|The default value for retrocompatibility|
 ulClass|string| - |Not used in Bootstrap template|
 liClass|string| - |Not used in Bootstrap template|
-
-## Todo
-
-- Manage pluralization
+disabled|boolean|false|Use to hide the component - Custom implementation only|
 
 ----------------------------------------
 
